@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(#727474, white);
+    background-repeat: no-repeat;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+}
+
+.header-section {
+    background-image: url(./assets/city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-title {
+    background-color:rgb(242, 242, 242, .5);
+    padding: 5px 10px;
+    width: 450px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#header-description {
+    background-color: rgb(242, 242, 242, .7);
+    width: 400px;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+.content-section {
+    margin-bottom: 0;
+}
+
+.content-attractions-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-attraction-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attraction-img {
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #323434;
+}
+
+.attraction-title {
+    font-weight: bold;
+}
+
+.attraction-description {
+    margin-top: 0;
+    max-width: 150px;
+}
+
+.guide-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-card {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(#4c4d4d, #d8d9d9);
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #4c4d4d;
+    gap: 20px
+}
+
+#guide-img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #323434;
+}
